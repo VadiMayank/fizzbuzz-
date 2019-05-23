@@ -3,7 +3,7 @@ def fizzbuzz(max_num=101):
         value = ""
         if i % 3 == 0: value += "Fizz"
         if i % 5 == 0: value += "Buzz"
-        yield value if value else i
+        
 
-for number, burp in enumerate(fizzbuzz()):
-print "%s: %s" % (number, burp)
+if i%3==0 and i%5==0:
+	print("Fizz BUzz")
